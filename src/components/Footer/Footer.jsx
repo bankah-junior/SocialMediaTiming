@@ -1,20 +1,20 @@
-import React from 'react';
+import {} from 'react';
 import { FaGithub } from 'react-icons/fa';
 
 const Footer = () => (
-  <footer className="bg-gray-50 border-t border-gray-200 py-8">
-    <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
-      <p className="text-gray-600 text-sm">
-        © {new Date().getFullYear()} Bankah. All rights reserved.
+  <footer className="py-8 border-t border-gray-200 bg-gray-50">
+    <div className="flex flex-col items-center justify-between px-6 mx-auto max-w-7xl md:flex-row">
+      <p className="text-sm text-gray-600">
+        © {new Date().getFullYear()} <a href="https://anthonybekoebankah.netlify.app/" target='_blank'  className="hover:underline">Bankah</a>. All rights reserved.
       </p>
       <div className="flex items-center mt-4 md:mt-0">
         <a
           href="https://github.com/bankah-junior"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-600 hover:text-gray-900 transition-colors"
+          className="text-gray-600 transition-colors hover:text-gray-900"
         >
-          <FaGithub className="h-6 w-6" />
+          <FaGithub className="w-6 h-6" />
         </a>
       </div>
     </div>
